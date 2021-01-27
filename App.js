@@ -24,7 +24,6 @@ function App() {
       <Route path='/' exact component={Option} />
       <Route path='/About' component={About} />
       <Route path='/Contact' component={Contact} />
-      <Route path='/PainfulMemories'  component={PainfulMemories} />
       <Route path='/RealShit'  component={RealShit} />
       <Route path='/CoolBeat'  component={CoolBeat} />
       <Route path='/HeartAttack' component={HeartAttack} />
