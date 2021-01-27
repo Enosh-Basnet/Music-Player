@@ -2,7 +2,6 @@ import React from 'react'
 import {useState, useEffect} from 'react'
 import RealShit from './components/SongList/RealShit/RealShit'
 import CoolBeat from './components/SongList/CoolBeat/CoolBeat'
-import HeartAttack from './components/SongList/HeartAttack/HeartAttack'
 import Option from './components/Option'
 import Nav from './components/Nav'
 import About from './components/About'
@@ -25,7 +24,6 @@ function App() {
       <Route path='/Contact' component={Contact} />
       <Route path='/RealShit'  component={RealShit} />
       <Route path='/CoolBeat'  component={CoolBeat} />
-      <Route path='/HeartAttack' component={HeartAttack} />
       </Switch>
       <Footer />
       </div>
