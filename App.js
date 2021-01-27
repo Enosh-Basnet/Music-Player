@@ -28,6 +28,7 @@ function App() {
       <Route path='/RealShit'  component={RealShit} />
       <Route path='/CoolBeat'  component={CoolBeat} />
       <Route path='/HeartAttack' component={HeartAttack} />
+      <Route path='/AttackOnTitan' component={AttackOnTitan} />
       </Switch>
       <Footer />
       </div>
