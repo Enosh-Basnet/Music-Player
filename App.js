@@ -1,6 +1,5 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import PainfulMemories from './components/SongList/PainfulMemories/PainfulMemories'
 import RealShit from './components/SongList/RealShit/RealShit'
 import CoolBeat from './components/SongList/CoolBeat/CoolBeat'
 import HeartAttack from './components/SongList/HeartAttack/HeartAttack'
@@ -27,7 +26,6 @@ function App() {
       <Route path='/RealShit'  component={RealShit} />
       <Route path='/CoolBeat'  component={CoolBeat} />
       <Route path='/HeartAttack' component={HeartAttack} />
-      <Route path='/AttackOnTitan' component={AttackOnTitan} />
       </Switch>
       <Footer />
       </div>
